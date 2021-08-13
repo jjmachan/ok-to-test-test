@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "test integration....done!"
+      - run: echo github.event.client_payload.slash_command.sha
 
   integration-trusted:
     runs-on: ubuntu-latest
