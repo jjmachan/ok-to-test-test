@@ -11,8 +11,7 @@ jobs:
   integration-basic:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "test integration....done!"
-      - run: echo github.event.client_payload.slash_command.sha
+      - uses: hmarr/debug-action@v2
 
   integration-trusted:
     runs-on: ubuntu-latest
