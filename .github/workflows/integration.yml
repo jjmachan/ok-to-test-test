@@ -11,7 +11,7 @@ jobs:
   integration-basic:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "test integration....done!"
+      - uses: hmarr/debug-action@v2
 
   integration-trusted:
     runs-on: ubuntu-latest
